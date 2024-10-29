@@ -1,0 +1,23 @@
+/* Initial transparent navbar */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link {
+  color: #e7dfdf;
+}
+
+/* Scrolled navbar styles */
+.navbar-scrolled {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-scrolled .nav-link {
+  color: #333;
+}
+.logo{
+color: #d1002c;;
+}
+

@@ -1,0 +1,106 @@
+.hero-section {
+    background-image: url('../images/bg_1.jpg');
+    /* Use a local image */
+    background-size: cover;
+    /* background-position: ; */
+    height: 100vh;
+    /* Full screen height */
+    width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+}
+/* custom.css */
+
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    bottom: 150px;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  /* Custom styles for the Our Works section */
+#works {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 60px 0; /* Top and bottom padding */
+  }
+  
+  #works h2 {
+    font-size: 2.5rem; /* Font size for the section title */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Dark text color */
+  }
+  
+  #works p {
+    font-size: 1.2rem; /* Font size for section description */
+    color: #666; /* Slightly lighter text color */
+  }
+  
+  #works .row {
+    margin-bottom: 30px; /* Space between rows */
+  }
+  
+  #works img {
+    border-radius: 8px; /* Rounded corners for images */
+    transition: transform 0.3s ease; /* Smooth scale effect on hover */
+  }
+  
+  #works img:hover {
+    transform: scale(1.05); /* Scale up image on hover */
+  }
+  
+  #works h3 {
+    font-size: 1.8rem; /* Font size for project titles */
+    margin-top: 20px; /* Margin above titles */
+    color: #333; /* Dark text color */
+  }
+  
+  #works p {
+    margin-top: 10px; /* Space above project descriptions */
+    color: #555; /* Medium text color */
+  }
+.about-sec{
+  
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.person{
+  /* border: 1px solid; */
+  border-radius: 1500px;
+  width: 75px;
+}
+.intro {
+  background-image: url('../images/bg_1.jpg');
+  /* Use a local image */
+  /* background-size: cover;  */
+  /* background-position: ; */
+  height: 60vh;
+  /* Full screen height */
+   width: 80%; 
+  margin-top: 10px; 
+  margin-left: 150px;
+}
+.Get{
+  color: #d1002c;
+}
+.banner{
+  padding-top: 50px;
+}
